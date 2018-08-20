@@ -12,6 +12,7 @@
               'initOS GmbH,'
               'redCOR AG,'
               'ACSONE SA/NV,'
+              'Serpent Consulting Services Pvt. Ltd.,'
               'Odoo Community Association (OCA)',
     "website": "https://odoo-community.org/",
     'depends': [
