@@ -275,5 +275,5 @@ class GeneralLedgerReportWizard(models.TransientModel):
         """Default export is PDF."""
         model = self.env['report_general_ledger_qweb']
         report = model.create(self._prepare_report_general_ledger())
-        report.compute_data_for_report()
+        report.compute_data_for_report(with_partners=report.group_by)
         return report.print_report(report_type)
